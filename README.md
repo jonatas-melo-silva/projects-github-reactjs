@@ -46,7 +46,7 @@
 
     <hr>
 
-    <h4>Página Repository</h4>
+    <h4 align="center">Página Repository</h4>
     <h2><img align="center" src="./github/repositories.png" alt="Página Repository"></h2>
 
   </section>
