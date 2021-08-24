@@ -1,12 +1,8 @@
 <header>
   <h1 align="center" >Projects Github</h1>
-
   <h4 align="center" >Look for public repositories in Github</h4>
-
   <br>
-
   <h2 align="center">Appendix</h2>
-
   <nav align="center">
     <a align="center" href="#features">Features</a> |
     <a align="center" href="#screenshots">Screenshots</a> |
@@ -17,13 +13,9 @@
     <a align="center" href="#authors">Authors</a>
   </nav>
 </header>
-
 <br>
-
 <h4 align="center">👨‍💻️  Construction  🚧️  project  🚀️</h4>
-
 <hr>
-
 <main>
   <section id="features" align="center">
     <h2 align="center">Features</h2>
@@ -32,28 +24,19 @@
 - [x] Search Repositories
 - [x] Details of the Repository
 - [ ] Remove of the Repository
-
   </section>
-
   <br>
   <hr>
-
   <section id="screenshots" align="center">
     <h2 align="center">Screenshots</h2>
-
     <h4 align="center">Página Home</h4>
     <h2><img align="center" src="./github/home.png" alt="Página home"></h2>
-
     <hr>
-
     <h4 align="center">Página Repository</h4>
     <h2><img align="center" src="./github/repositories.png" alt="Página Repository"></h2>
-
   </section>
-
   <br>
   <hr>
-
   <section id="tech-stack" align="center">
     <h2 align="center">Tech Stack</h2>
     <nav>
@@ -67,10 +50,8 @@
       <a align="center" href="https://www.npmjs.com/package/axios">Axios</a>
       </nav>
   </section>
-
   <br>
   <hr>
-
   <section id="pre-requirements" align="center">
     <h2 align="center">Pre-requeriments</h2>
     <p align="center">Before you begin, you will need to have installed on your machine the following tools
@@ -80,13 +61,10 @@
       <a href="https://code.visualstudio.com/">VSCode</a>.
     </p>
   </section>
-
   <br>
   <hr>
-
   <section id="running-the-local-project" align="center">
     <h2 align="center">Running the local project</h2>
-
 ```bash
 # Clone the repository
 $ git clone <https://github.com/jonatas-melo-silva/projects-github-reactjs.git>
@@ -102,31 +80,20 @@ $ yarn start
 
 # The server will start port:3000 - Go <http://localhost:3000>
 ```
-
   </section>
-
   <br>
   <hr>
-
   <section id="licence" align="center">
     <h2 align="center">Licence</h2>
     <p align="center">
       This project is licensed under the
       <a href="https://choosealicense.com/licenses/mit/">MIT</a> license.
     </p>
-
   </section>
-
   <br>
   <hr>
-
   <section id="authors" align="center">
     <h2 align="center">👨‍💻️ Authors 🇧🇷</h2>
-
-    <p align="center">
-      Made with 💜️ by 👦️
-      <a href="https://github.com/jonatas-melo-silva">Jonatas Melo Silva</a>.
-    </p>
-
+    <h4 align="center">Made with 💜️ by 👦️ <a href="https://github.com/jonatas-melo-silva">Jonatas Melo Silva</a>.</h4>
   </section>
 </main>
