@@ -18,9 +18,9 @@ Look for public repositories in Github
 
 ## Screenshots
 
-![Add and list Repositories](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Add and list Repositories](https://drive.google.com/file/d/1ObkI2K7tHZNVkM_-vuYiIrQI9rLwJxFO/view?usp=sharing)
 
-![Details of the repository](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Details of the repository](https://drive.google.com/file/d/1YWg8Bb2cp8GhxYLzQdevdehlXGrJxieV/view?usp=sharing)
 
 ## Tech Stack
 
