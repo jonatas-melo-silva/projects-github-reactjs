@@ -110,9 +110,10 @@ $ yarn start
 
   <section id="licence" align="center">
     <h2 align="center">Licence</h2>
-    <p align="center">This project is licensed under the MIT license.</p>
-
-[MIT](https://choosealicense.com/licenses/mit/)
+    <p align="center">
+      This project is licensed under the
+      <a href="https://choosealicense.com/licenses/mit/">MIT</a> license.
+    </p>
 
   </section>
 
@@ -122,7 +123,10 @@ $ yarn start
   <section id="authors" align="center">
     <h2 align="center">👨‍💻️ Authors 🇧🇷</h2>
 
-Made with 💜️ by 👦️ [@jonatas-melo-silva](https://github.com/jonatas-melo-silva)
+    <p align="center">
+      Made with 💜️ by 👦️
+      <a href="https://github.com/jonatas-melo-silva">Jonatas Melo Silva</a>.
+    </p>
 
   </section>
 </main>
