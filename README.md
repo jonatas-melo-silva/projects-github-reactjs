@@ -40,7 +40,7 @@
   <section id="tech-stack" align="center">
     <h2 align="center">Tech Stack</h2>
     <nav>
-      <a align="center" href="https://www.npmjs.com/package/react">React</a> |
+      <a align="center" href="https://www.npmjs.com/package/react" target="_blank">React</a> |
       <a align="center" href="https://www.npmjs.com/package/react-dom">React-Dom</a> |
       <a align="center" href="https://www.npmjs.com/package/react-icons">React-Icons</a> |
       <a align="center" href="https://www.npmjs.com/package/react-router-dom">React-Router-Dom</a> |
