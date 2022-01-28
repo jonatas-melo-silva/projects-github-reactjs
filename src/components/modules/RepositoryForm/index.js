@@ -21,16 +21,16 @@ const RepositoryForm = () => {
     e.preventDefault();
     setLoading(true);
     try {
-    const { data } = await get(`/repos/${newRepository}`);
-    const repositoryName = {
-      name: data.full_name,
-    };
-    addRepositoryNames(repositoryName);
-    setNewRepository('');
-    setLoading(false);
+      const { data } = await get(`/repos/${newRepository}`);
+      const repositoryName = {
+        name: data.full_name,
+      };
+      addRepositoryNames(repositoryName);
+      setNewRepository('');
+      setLoading(false);
     } catch (error) {
       setLoading(false);
-      alert('Repositório não encontrado');
+      alert('Repository not found');
     }
   };
   return (
@@ -42,7 +42,7 @@ const RepositoryForm = () => {
       >
         <Input
           type="text"
-          placeholder="Enter the name of the repository"
+          placeholder="Enter username / repository"
           value={newRepository}
           onChange={(e) => observerChangeInInput(e)}
         />
