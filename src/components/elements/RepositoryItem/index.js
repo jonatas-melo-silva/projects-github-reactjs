@@ -15,6 +15,12 @@ const RepositoryItem = styled.li`
     color: #7159c1;
     text-decoration: none;
   }
+
+  .actions-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
 `;
 
 export default RepositoryItem;
