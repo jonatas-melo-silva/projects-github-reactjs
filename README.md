@@ -20,11 +20,20 @@
 <main>
   <section id="features" align="center">
     <h2 align="center">✨ Features</h2>
-
-- [x] List Repositories
-- [x] Search Repositories
-- [x] Details of the Repository
-- [ ] Remove of the Repository
+    <p align="center">
+    <strong align="center">
+      ✅ List Repositories
+    </strong>
+    <strong align="center">
+      ✅ Search Repositories
+    </strong>
+    <strong align="center">
+      ✅ Details of the Repository
+    </strong>
+    <strong align="center">
+      ❌ Remove of the Repository
+    </strong>
+    </p>
 </section>
 <br>
 <hr>
