@@ -75,10 +75,10 @@ $ git clone <https://github.com/jonatas-melo-silva/projects-github-reactjs.git>
 $ cd projects-github-reactjs
 
 # instaleAsDependencies
-$ yarn
+$ yarn or npm install
 
 # Execute the Project in Development Mode
-$ yarn start
+$ yarn start or npm run start
 
 # The server will start port:3000 - Go <http://localhost:3000>
 ```
