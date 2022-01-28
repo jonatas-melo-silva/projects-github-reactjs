@@ -22,16 +22,19 @@
     <h2 align="center">✨ Features</h2>
     <p align="center">
     <strong align="center">
-      ✅ List Repositories
-    </strong>
-    <strong align="center">
       ✅ Search Repositories
     </strong>
     <strong align="center">
-      ✅ Details of the Repository
+      ✅ Add Repositories to List
     </strong>
     <strong align="center">
-      ❌ Remove of the Repository
+      ✅ List Repositories
+    </strong>
+    <strong align="center">
+      ✅ Details the Repository
+    </strong>
+    <strong align="center">
+      ✅ Remove the Repository from List
     </strong>
     </p>
 </section>
