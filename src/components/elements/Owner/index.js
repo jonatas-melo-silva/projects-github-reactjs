@@ -24,6 +24,18 @@ const Owner = styled.header`
     text-align: center;
     max-width: 400px;
   }
+
+  .action-back {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #7159c1;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 `;
 
 export default Owner;
