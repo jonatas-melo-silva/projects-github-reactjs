@@ -3,10 +3,10 @@
   <h4 align="center" >Look for public repositories in Github</h4>
   <br>
   <h2 align="center">📇 Appendix</h2>
-  <!--  -->
   <nav align="center">
     <a align="center" href="#features">Features</a> |
     <a align="center" href="#screenshots">Screenshots</a> |
+    <a align="center" href="#screenshots">Video</a> |
     <a align="center" href="#tech-stack">Tech Stack</a> |
     <a align="center" href="#pre-requirements">Pre Requirements</a> |
     <a align="center" href="#running-the-local-project">Running the local project</a> |
@@ -43,11 +43,17 @@
 <section id="screenshots" align="center">
   <h2 align="center">📸 Screenshots</h2>
   <strong align="center">Page Home</strong>
-  <h2><img align="center" src="./.github/home.png" alt="Página home"></h2>
+  <h2><img align="center" src="./.github/page-home.png" alt="Página home"></h2>
   <hr>
   <strong align="center">Page Repository</strong>
-  <h2><img align="center" src="./.github/repositories.png" alt="Página Repository"></h2>
+  <h2><img align="center" src="./.github/page-details.png" alt="Página Repository"></h2>
 </section>
+<br>
+<hr>
+<section id="screenshots" align="center">
+  <h2 align="center">📹 Video</h2>
+  <strong align="center">App Video</strong>
+  <h2><img align="center" src="./.github/app-video.gif" alt="App Video"></h2>
 <br>
 <hr>
 <section id="tech-stack" align="center">
