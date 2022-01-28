@@ -20,6 +20,7 @@ const RepositoryForm = () => {
   const observerChangeInSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    try {
     const { data } = await get(`/repos/${newRepository}`);
     const repositoryName = {
       name: data.full_name,
@@ -27,6 +28,10 @@ const RepositoryForm = () => {
     addRepositoryNames(repositoryName);
     setNewRepository('');
     setLoading(false);
+    } catch (error) {
+      setLoading(false);
+      alert('Repositório não encontrado');
+    }
   };
   return (
     <>
