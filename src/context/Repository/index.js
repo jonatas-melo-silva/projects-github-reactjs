@@ -15,7 +15,18 @@ export const RepositoryProvider = ({ children }) => {
 
   const addRepository = (repository) => {
     setRepository(repository);
-  }
+  };
+
+  const removeRepositoryNames = (repository) => {
+    const repositoryNamesLocal = repositoryNames.filter(
+      (repositoryName) => repositoryName.name !== repository.name,
+    );
+    setRepositoryNames(repositoryNamesLocal);
+    localStorage.setItem(
+      'repositoryNames',
+      JSON.stringify(repositoryNamesLocal),
+    );
+  };
 
   const addRepositoryNames = (newRepository) => {
     const repository = repositoryNames.find(
@@ -40,7 +51,13 @@ export const RepositoryProvider = ({ children }) => {
 
   return (
     <RepositoryContext.Provider
-      value={{ addRepository, getRepository, getRepositoryNames, addRepositoryNames }}
+      value={{
+        addRepository,
+        getRepository,
+        getRepositoryNames,
+        addRepositoryNames,
+        removeRepositoryNames,
+      }}
     >
       {children}
     </RepositoryContext.Provider>

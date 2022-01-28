@@ -7,7 +7,7 @@ import List from '../../elements/RepositoryList';
 import Item from '../../elements/RepositoryItem';
 
 function RepositoryList() {
-  const { getRepositoryNames } = useRepositories();
+  const { getRepositoryNames, removeRepositoryNames } = useRepositories();
   return (
     <List>
         {getRepositoryNames().map((repository, index) => (
@@ -16,6 +16,11 @@ function RepositoryList() {
             <Link to={`/repository/${encodeURIComponent(repository.name)}`}>
               Details
             </Link>
+            <Action onClick={() => removeRepositoryNames(repository)}>
+              <FaTrash />
+              Delete
+            </Action>
+          </div>
           </Item>
         ))}
       </List>
