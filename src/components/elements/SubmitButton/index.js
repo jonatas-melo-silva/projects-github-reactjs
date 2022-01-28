@@ -21,6 +21,11 @@ const SubmitButton = styled.button.attrs((props) => ({
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.7;
+  }
 
   &[disabled] {
     cursor: not-allowed;
